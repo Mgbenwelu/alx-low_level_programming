@@ -2,24 +2,21 @@
 
 /**
  * main - Program starts here
- * Description: Prints possible combinations of single-digit numbers
  * Return: Always0(Success)
  */
 
 int main(void)
 {
-int number;
-putchar('0');
-putchar(',');
-putchar(' ');
-for (number = 1; number < 10; number++)
+int i = '0';
+while (i <= '9')
 {
-putchar(number + '0');
-if (number != 9)
+putchar(i);
+if (i != '9')
 {
 putchar(',');
 putchar(' ');
 }
+++i;
 }
 putchar('\n');
 return (0);

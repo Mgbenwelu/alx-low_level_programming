@@ -1,8 +1,8 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
- * main - program starts here
- *Return: 0 (success)
+ * main - Program starts here
+ * Return:0(success)
  */
 
 int main(void)

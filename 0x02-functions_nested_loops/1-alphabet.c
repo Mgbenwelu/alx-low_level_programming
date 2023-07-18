@@ -1,22 +1,19 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
- * main - Prints the lowercase alphabet followed by a new line.
- * Description: Lowercase alphabet 'a' to 'z' then, a new line character '\n'.
+ * print_alphabet - Program starts here
  * Return: Always 0 (success)
  */
+
 void print_alphabet(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
+char c = 'a';
+while (c <= 'z')
 {
-_putchar(letter);
+_putchar(c);
+c++;
 }
 _putchar('\n');
-}
-int main(void)
-{
-print_alphabet();
-return (0);
 }
 

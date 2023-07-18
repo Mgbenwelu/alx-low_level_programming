@@ -1,1 +1,1 @@
-This is a README for the functions_nested_loops task
+0x02. C - Functions, nested loops
